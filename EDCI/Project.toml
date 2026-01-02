@@ -1,0 +1,10 @@
+name = "EDCI"
+uuid = "91820c50-c427-4ef3-b905-d6151ca96498"
+version = "0.1.0"
+authors = ["Aleksandrs Zacinskis <azacinskis@gmail.com>"]
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
